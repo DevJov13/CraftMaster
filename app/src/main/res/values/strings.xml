@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CraftMaster Challenge</string>
+    <string name="win_splash">YOU WON!</string>
+    <string name="coins">coins</string>
+</resources>

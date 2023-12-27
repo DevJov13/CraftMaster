@@ -1,0 +1,9 @@
+
+F
+java:S2140")Use "java.util.Random.nextInt()" instead.(½—êú8Éë±È1
+=	java:S131*""Add a default case to this switch.(ìúÇV8Íë±È1
+=	java:S1319""Add a default case to this switch.(¤“ÒU8Îë±È1
+X	java:S125n"<This block of commented-out lines of code should be removed.(Í—º8Ø£ÒÎÊ1
+]	java:S125u"<This block of commented-out lines of code should be removed.(ë¥§èøÿÿÿÿ8Û£ÒÎÊ1
+G
+java:S1068"+Remove this unused "context" private field.(êİç8×ë±È1

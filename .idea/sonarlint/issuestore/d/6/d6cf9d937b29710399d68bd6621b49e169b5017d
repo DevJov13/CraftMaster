@@ -1,0 +1,30 @@
+
+f
+java:S1192_"IDefine a constant instead of duplicating this literal "firstRun" 3 times.(í‘ºè8ûá‰‚É1
+c
+java:S1192h"FDefine a constant instead of duplicating this literal "music" 3 times.(ºÆ§‡8ûá‰‚É1
+c
+java:S1192i"FDefine a constant instead of duplicating this literal "sound" 3 times.(àºàĞ8ûá‰‚É1
+p
+java:S1104>"NMake mp a static final constant or non-public and provide accessors if needed.(Ü«Ñæıÿÿÿÿ8ıá‰‚É1
+k
+java:S1104?"OMake win a static final constant or non-public and provide accessors if needed.(áÄ8ıá‰‚É1
+u
+java:S1104@"SMake bgsound a static final constant or non-public and provide accessors if needed.(Â¹°Èşÿÿÿÿ8ıá‰‚É1
+{	java:S115 "ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ù×‡äøÿÿÿÿ8ªâ‰‚É1
+{	java:S115!"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÒÕüÍüÿÿÿÿ8ªâ‰‚É1
+{	java:S115""ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ùƒÔÈøÿÿÿÿ8ªâ‰‚É1
+{	java:S115#"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.( ™›ÿÿÿÿÿ8ªâ‰‚É1
+r	java:S1165"VRename this field "myCoins_val" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(È‚ïê8ªâ‰‚É1
+s	java:S1166"RRename this field "bet_val" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ô¢šøÿÿÿÿ8ªâ‰‚É1
+r	java:S1167"VRename this field "jackpot_val" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ı¿ìŠ8ªâ‰‚É1
+u	java:S116F"TRename this field "music_off" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ïôèäÿÿÿÿÿ8ªâ‰‚É1
+o	java:S116G"SRename this field "music_on" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İÜ­©8ªâ‰‚É1
+t
+java:S3776L"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(¨Œşÿÿÿÿ8»â‰‚É1
+]	java:S125V"<This block of commented-out lines of code should be removed.(ç¶¸şÿÿÿÿ8½â‰‚É1
+R
+java:S1874À"/Remove this use of "setView"; it is deprecated.(’æ·ëúÿÿÿÿ8Çâ‰‚É1
+U
+java:S1117ş"7Rename "bet" which hides the field declared at line 51.(«Á¡³8Íâ‰‚É1
+?	java:S131­""Add a default case to this switch.(¶Ëôì8Ôâ‰‚É1
