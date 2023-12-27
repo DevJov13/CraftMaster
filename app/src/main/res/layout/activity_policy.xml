@@ -28,8 +28,9 @@
 
         <Button
             android:id="@+id/accept"
-            android:layout_width="wrap_content"
+            android:layout_width="118dp"
             android:layout_height="wrap_content"
+            android:layout_margin="5dp"
             android:layout_weight="1"
             android:backgroundTint="#55CC16"
             android:fontFamily="sans-serif-condensed-medium"
@@ -38,8 +39,9 @@
 
         <Button
             android:id="@+id/reject"
-            android:layout_width="wrap_content"
+            android:layout_width="118dp"
             android:layout_height="wrap_content"
+            android:layout_margin="5dp"
             android:layout_weight="1"
             android:backgroundTint="#F10A0A"
             android:textStyle="bold"

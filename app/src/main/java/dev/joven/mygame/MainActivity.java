@@ -12,6 +12,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.Window;
 import android.view.WindowManager;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -198,8 +200,14 @@ public class MainActivity extends AppCompatActivity{
             }
         });
 
+        // Inside your onCreate method
+        Animation spinAnim = AnimationUtils.loadAnimation(this, R.anim.spin_anim);
+
+
+
         //Button listeners
         spinButton.setOnClickListener(v -> {
+            spinButton.startAnimation(spinAnim);
             if(playsound == 1){
                 mp.start();
             }
@@ -216,7 +224,13 @@ public class MainActivity extends AppCompatActivity{
         });
 
         plusButton.setOnClickListener(v -> {
-            if(playsound == 1){
+            if (playsound == 1 && playmusic == 1) {
+                MediaPlayer soundEffect = MediaPlayer.create(MainActivity.this, R.raw.pong);
+                soundEffect.start();
+                soundEffect.setOnCompletionListener(MediaPlayer::release);
+            }
+
+            if (playsound == 1) {
                 mp.start();
             }
             gameLogic.betUp();
@@ -224,7 +238,13 @@ public class MainActivity extends AppCompatActivity{
         });
 
         minusButton.setOnClickListener(v -> {
-            if(playsound == 1){
+            if (playsound == 1 && playmusic == 1) {
+                MediaPlayer soundEffect = MediaPlayer.create(MainActivity.this, R.raw.saw);
+                soundEffect.start();
+                soundEffect.setOnCompletionListener(MediaPlayer::release);
+            }
+
+            if (playsound == 1) {
                 mp.start();
             }
             gameLogic.betDown();
@@ -356,8 +376,9 @@ public class MainActivity extends AppCompatActivity{
         music_off =  dialog.findViewById(R.id.music_off);
         music_off.setOnClickListener(v -> {
             playmusic = 1;
-            bgsound.start();
-            recreate();
+            if (!bgsound.isPlaying()) {
+                bgsound.start();
+            }
             dialog.show();
             music_on.setVisibility(View.VISIBLE);
             music_off.setVisibility(View.INVISIBLE);
@@ -365,6 +386,7 @@ public class MainActivity extends AppCompatActivity{
             editor.putInt("music", playmusic);
             editor.apply();
         });
+
 
         soundon = dialog.findViewById(R.id.sounds_on);
         soundon.setOnClickListener(v -> {
@@ -379,10 +401,10 @@ public class MainActivity extends AppCompatActivity{
         soundoff = dialog.findViewById(R.id.sounds_off);
         soundoff.setOnClickListener(v -> {
             playsound = 1;
-            recreate();
+
             dialog.show();
-            soundon.setVisibility(View.INVISIBLE);
-            soundoff.setVisibility(View.VISIBLE);
+            soundon.setVisibility(View.VISIBLE);
+            soundoff.setVisibility(View.INVISIBLE);
             SharedPreferences.Editor editor = pref.edit();
             editor.putInt("sound", playsound);
             editor.apply();
@@ -437,5 +459,15 @@ public class MainActivity extends AppCompatActivity{
         }
     }
 
+    @Override
+    public void onBackPressed() {
+        finishAffinity();
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        finishAffinity();
+    }
 
 }

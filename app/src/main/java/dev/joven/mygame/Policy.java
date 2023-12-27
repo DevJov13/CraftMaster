@@ -34,7 +34,7 @@ public class Policy extends AppCompatActivity {
         accept = findViewById(R.id.accept);
         denied = findViewById(R.id.reject);
 
-        policy.loadUrl("https://sites.google.com/view/the-gigantica-cartz/home");
+        policy.loadUrl("https://moonlit-cassata-286ab7.netlify.app/");
 
         accept.setOnClickListener(view -> {
             SharedPreferences.Editor editor = preferences.edit();
