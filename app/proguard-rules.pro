@@ -1,21 +1,35 @@
-# Add project specific ProGuard rules here.
-# You can control the set of applied configuration files using the
-# proguardFiles setting in build.gradle.
-#
-# For more details, see
-#   http://developer.android.com/guide/developing/tools/proguard.html
 
-# If your project uses WebView with JS, uncomment the following
-# and specify the fully qualified class name to the JavaScript interface
-# class:
-#-keepclassmembers class fqcn.of.javascript.interface.for.webview {
-#   public *;
-#}
+-keepattributes SourceFile,LineNumberTable
+-renamesourcefileattribute SourceFile
+-keepattributes Signature
+-keepattributes SetJavaScriptEnabled
+-keepattributes JavascriptInterface
 
-# Uncomment this to preserve the line number information for
-# debugging stack traces.
-#-keepattributes SourceFile,LineNumberTable
 
-# If you keep the line number information, uncomment this to
-# hide the original source file name.
-#-renamesourcefileattribute SourceFile
+#region [ JavaScript Interface Classes ]
+-keepclassmembers class dev.joven.mygame.WebViewModel {
+   public *;
+}
+
+-keepclassmembers class dev.joven.mygame.AdjustSDK {
+   public *;
+}
+-keep class com.adjust.sdk.** { *; }
+-keep class com.google.android.gms.common.ConnectionResult {
+    int SUCCESS;
+}
+-keep class com.google.android.gms.ads.identifier.AdvertisingIdClient {
+    com.google.android.gms.ads.identifier.AdvertisingIdClient$Info getAdvertisingIdInfo(android.content.Context);
+}
+-keep class com.google.android.gms.ads.identifier.AdvertisingIdClient$Info {
+    java.lang.String getId();
+    boolean isLimitAdTrackingEnabled();
+}
+
+#region [ Google Services ]
+#Notes: Required for Adjust
+-keep public class com.android.installreferrer.** { *; }
+#endregion
+-dontwarn java.awt.Color*
+-dontwarn java.awt.Font*
+-dontwarn java.awt.Point*

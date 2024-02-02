@@ -3,9 +3,16 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
 
     <application
+        android:name=".GlobalApplication"
+        tools:replace="android:fullBackupContent"
         android:allowBackup="true"
+        android:hardwareAccelerated="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
@@ -21,14 +28,40 @@
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
+
             </intent-filter>
         </activity>
+
+        <!-- File Provider for CustomTabsIntent -->
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_path" />
+        </provider>
+
         <activity
-            android:name=".Policy"
+            android:name=".AdjustSDK"
             android:exported="false" />
+
         <activity
             android:name=".MainActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="1154200455542184"/>
+        <meta-data android:name="com.facebook.sdk.ClientToken" android:value="f2745c7757a9f136ad3a98d9d08c2a33"/>
+        <meta-data android:name="com.facebook.sdk.AdvertiserIDCollectionEnabled" android:value="false"/>
+        <meta-data android:name="com.facebook.sdk.AutoLogAppEventsEnabled" android:value="false"/>
+        <meta-data android:name="com.facebook.sdk.AutoInitEnabled" android:value="false"/>
+        <provider android:authorities="com.facebook.app.FacebookContentProvider1154200455542184"
+            android:name="com.facebook.FacebookContentProvider"
+            android:exported="false"/>
     </application>
-
+    <queries>
+        <provider android:authorities="com.facebook.katana.provider.PlatformProvider" />
+        <provider android:authorities="com.facebook.orca.provider.PlatformProvider" />
+    </queries>
 </manifest>

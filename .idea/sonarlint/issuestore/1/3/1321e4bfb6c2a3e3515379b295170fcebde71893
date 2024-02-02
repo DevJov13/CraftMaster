@@ -1,0 +1,15 @@
+
+W
+java:S1118":Add a private constructor to hide the implicit public one.(»°“8±ìŒóÕ1
+P
+java:S18746".Remove this use of "SERIAL"; it is deprecated.(Ë†„¤ÿÿÿÿÿ8¸ìŒóÕ1
+I
+java:S1905?"'Remove this unnecessary cast to "long".(í²ÏØûÿÿÿÿ8¹ìŒóÕ1
+P
+java:S1874?".Remove this use of "SERIAL"; it is deprecated.(í²ÏØûÿÿÿÿ8¹ìŒóÕ1
+I
+java:S1905?"'Remove this unnecessary cast to "long".(í²ÏØûÿÿÿÿ8ºìŒóÕ1
+P
+java:S1874?".Remove this use of "SERIAL"; it is deprecated.(í²ÏØûÿÿÿÿ8ºìŒóÕ1
+V
+java:S4719J"9Replace charset name argument with StandardCharsets.UTF_8(„ùä²8ºìŒóÕ1

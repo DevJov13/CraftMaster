@@ -1,0 +1,10 @@
+
+p
+java:S1104"SMake context a static final constant or non-public and provide accessors if needed.(¿—Í±8Ùö©ôÕ1
+J
+java:S1444"-Make this "public static context" field final(¿—Í±8Ùö©ôÕ1
+W
+java:S1161":Add the "@Override" annotation above this method signature(Î¢È8ëö©ôÕ1
+S
+java:S2696"6Make the enclosing method "static" or remove this set.(—ÈëÕ8ëö©ôÕ1
+X	java:S125"<This block of commented-out lines of code should be removed.(ó™ß8ìö©ôÕ1

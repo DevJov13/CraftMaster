@@ -2,6 +2,7 @@ package dev.joven.mygame;
 
 import android.app.Dialog;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.SharedPreferences;
 import android.media.MediaPlayer;
 import android.os.Bundle;
@@ -14,6 +15,8 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
+import android.webkit.WebView;
+import android.webkit.WebViewClient;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -21,6 +24,7 @@ import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBar;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.appcompat.widget.Toolbar;
@@ -29,9 +33,9 @@ import androidx.appcompat.widget.Toolbar;
 import java.util.Objects;
 
 
-public class MainActivity extends AppCompatActivity{
+public class MainActivity extends AppCompatActivity {
 
-    private  static final int comboNumber = 7;
+    private static final int comboNumber = 7;
     private static final int coef = 72;
     private static final int coefW = 142;
     private static final int coefE = 212;
@@ -81,14 +85,13 @@ public class MainActivity extends AppCompatActivity{
         SpinnerAdapter adapter;
         ImageView settingsButton;
         ImageButton spinButton;
+        ImageView policyButton;
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
-
-        // getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
-        //       WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_main);
 
-        bgsound = MediaPlayer.create(this,R.raw.bg_music);
+
+        bgsound = MediaPlayer.create(this, R.raw.bg_music);
         bgsound.setLooping(true);
         mp = MediaPlayer.create(this, R.raw.spin);
         win = MediaPlayer.create(this, R.raw.win);
@@ -103,17 +106,18 @@ public class MainActivity extends AppCompatActivity{
             editor.putBoolean("firstRun", false);
             editor.apply();
         } else {
-            playmusic= pref.getInt("music", 1);
+            playmusic = pref.getInt("music", 1);
             playsound = pref.getInt("sound", 1);
             checkmusic();
 
         }
 
-        Log.d("MUSIC",String.valueOf(playmusic));
+        //Log.d("MUSIC", String.valueOf(playmusic));
 
         //Initializations
         gameLogic = new RulesMechanics();
         settingsButton = findViewById(R.id.settings);
+        policyButton  = findViewById(R.id.policy);
         spinButton = findViewById(R.id.spinButton);
         plusButton = findViewById(R.id.plusButton);
         minusButton = findViewById(R.id.minusButton);
@@ -149,6 +153,12 @@ public class MainActivity extends AppCompatActivity{
 
         setText();
         updateText();
+
+        policyButton.setOnClickListener(v -> {
+            showInfoAlertDialog();
+        });
+
+
 
         //RecyclerView listeners
         rv1.addOnScrollListener(new RecyclerView.OnScrollListener() {
@@ -200,12 +210,12 @@ public class MainActivity extends AppCompatActivity{
             }
         });
 
-        // Inside your onCreate method
+
         Animation spinAnim = AnimationUtils.loadAnimation(this, R.anim.spin_anim);
 
 
 
-        //Button listeners
+
         spinButton.setOnClickListener(v -> {
             spinButton.startAnimation(spinAnim);
             if(playsound == 1){
@@ -259,6 +269,29 @@ public class MainActivity extends AppCompatActivity{
         });
     }
 
+    private void showInfoAlertDialog() {
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+
+        View dialogView = LayoutInflater.from(this).inflate(R.layout.consent, null);
+        WebView userConsent = dialogView.findViewById(R.id.userConsent);
+
+        String privacyPolicyURL = "file:///android_asset/userconsent.html";
+        userConsent.setWebViewClient(new WebViewClient());
+        userConsent.loadUrl(privacyPolicyURL);
+
+        builder.setTitle("");
+        builder.setView(dialogView);
+        builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
+            public void onClick(DialogInterface dialog, int id) {
+                // Continue with the operation (if needed)
+                dialog.dismiss();
+            }
+        });
+
+        AlertDialog alertDialog = builder.create();
+        alertDialog.show();
+    }
+
     private void setText(){
         if(firstRun){
             gameLogic.setMyCoins(1000);
@@ -273,7 +306,7 @@ public class MainActivity extends AppCompatActivity{
             String coins = pref.getString("coins","");
             String bet = pref.getString("bet","");
             String jackpot = pref.getString("jackpot","");
-            Log.d("COINS",coins);
+            //Log.d("COINS",coins);
             myCoins_val = Integer.parseInt(coins);
             bet_val = Integer.parseInt(bet);
             jackpot_val = Integer.parseInt(jackpot);
@@ -294,6 +327,8 @@ public class MainActivity extends AppCompatActivity{
         editor.putString("jackpot",gameLogic.getJackpot());
         editor.apply();
     }
+
+
 
     private static class ItemViewHolder extends RecyclerView.ViewHolder {
 

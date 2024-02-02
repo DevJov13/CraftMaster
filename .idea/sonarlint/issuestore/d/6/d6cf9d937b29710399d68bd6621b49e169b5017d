@@ -1,32 +1,37 @@
 
 f
-java:S1192a"IDefine a constant instead of duplicating this literal "firstRun" 3 times.(í‘ºè8øºæ×Ê1
+java:S1192d"IDefine a constant instead of duplicating this literal "firstRun" 3 times.(í‘ºè8±ÍŒ£Ö1
 c
-java:S1192j"FDefine a constant instead of duplicating this literal "music" 3 times.(ºÆ§‡8ùºæ×Ê1
+java:S1192n"FDefine a constant instead of duplicating this literal "sound" 3 times.(àºàĞ8²ÍŒ£Ö1
 c
-java:S1192k"FDefine a constant instead of duplicating this literal "sound" 3 times.(àºàĞ8ùºæ×Ê1
+java:S1192m"FDefine a constant instead of duplicating this literal "music" 3 times.(ºÆ§‡8²ÍŒ£Ö1
+F
+java:S1604œ"(Make this anonymous inner class a lambda(Õä8öö£Ö1
 p
-java:S1104@"NMake mp a static final constant or non-public and provide accessors if needed.(Ü«Ñæıÿÿÿÿ8úºæ×Ê1
+java:S1104D"NMake mp a static final constant or non-public and provide accessors if needed.(Ü«Ñæıÿÿÿÿ8´ÍŒ£Ö1
 k
-java:S1104A"OMake win a static final constant or non-public and provide accessors if needed.(áÄ8úºæ×Ê1
+java:S1104E"OMake win a static final constant or non-public and provide accessors if needed.(áÄ8´ÍŒ£Ö1
 u
-java:S1104B"SMake bgsound a static final constant or non-public and provide accessors if needed.(Â¹°Èşÿÿÿÿ8úºæ×Ê1
-{	java:S115""ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ù×‡äøÿÿÿÿ8 »æ×Ê1
-{	java:S115#"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÒÕüÍüÿÿÿÿ8 »æ×Ê1
-{	java:S115$"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ùƒÔÈøÿÿÿÿ8 »æ×Ê1
-{	java:S115%"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.( ™›ÿÿÿÿÿ8 »æ×Ê1
-r	java:S1167"VRename this field "myCoins_val" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(È‚ïê8 »æ×Ê1
-s	java:S1168"RRename this field "bet_val" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ô¢šøÿÿÿÿ8 »æ×Ê1
-r	java:S1169"VRename this field "jackpot_val" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ı¿ìŠ8 »æ×Ê1
-u	java:S116H"TRename this field "music_off" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ïôèäÿÿÿÿÿ8 »æ×Ê1
-o	java:S116I"SRename this field "music_on" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İÜ­©8 »æ×Ê1
+java:S1104F"SMake bgsound a static final constant or non-public and provide accessors if needed.(Â¹°Èşÿÿÿÿ8´ÍŒ£Ö1
+{	java:S115&"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ù×‡äøÿÿÿÿ8“ÎŒ£Ö1
+{	java:S115'"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÒÕüÍüÿÿÿÿ8“ÎŒ£Ö1
+{	java:S115("ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ùƒÔÈøÿÿÿÿ8“ÎŒ£Ö1
+{	java:S115)"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.( ™›ÿÿÿÿÿ8“ÎŒ£Ö1
+r	java:S116;"VRename this field "myCoins_val" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(È‚ïê8“ÎŒ£Ö1
+s	java:S116<"RRename this field "bet_val" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ô¢šøÿÿÿÿ8“ÎŒ£Ö1
+r	java:S116="VRename this field "jackpot_val" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ı¿ìŠ8“ÎŒ£Ö1
+u	java:S116L"TRename this field "music_off" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ïôèäÿÿÿÿÿ8“ÎŒ£Ö1
+o	java:S116M"SRename this field "music_on" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İÜ­©8“ÎŒ£Ö1
 t
-java:S3776N"RRefactor this method to reduce its Cognitive Complexity from 29 to the 15 allowed.(¨Œşÿÿÿÿ8´»æ×Ê1
-]	java:S125X"<This block of commented-out lines of code should be removed.(ç¶¸şÿÿÿÿ8·»æ×Ê1
+java:S3776R"RRefactor this method to reduce its Cognitive Complexity from 29 to the 15 allowed.(¨Œşÿÿÿÿ8áÎŒ£Ö1
+X	java:S125s"<This block of commented-out lines of code should be removed.(› ÛŞ8¦ã£ÈÖ1
+J
+java:S1602",Remove useless curly braces around statement(ÑõßÄ8ìÎŒ£Ö1
 R
-java:S1874Â"/Remove this use of "setView"; it is deprecated.(’æ·ëúÿÿÿÿ8Ã»æ×Ê1
+java:S1874Ì"/Remove this use of "setView"; it is deprecated.(’æ·ëúÿÿÿÿ8€ÏŒ£Ö1
 U
-java:S1117’"7Rename "bet" which hides the field declared at line 53.(«Á¡³8Ë»æ×Ê1
-?	java:S131Á""Add a default case to this switch.(¶Ëôì8Ó»æ×Ê1
+java:S1117³"7Rename "bet" which hides the field declared at line 57.(«Á¡³8ÏŒ£Ö1
+^	java:S125µ"<This block of commented-out lines of code should be removed.(Ÿ¶ûÉÿÿÿÿÿ8ç¹¤ÈÖ1
+?	java:S131ä""Add a default case to this switch.(¶Ëôì8„ĞŒ£Ö1
 m
-java:S1874Ï"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(œƒƒ©ùÿÿÿÿ8à»æ×Ê1
+java:S1874ò"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(œƒƒ©ùÿÿÿÿ8”ĞŒ£Ö1

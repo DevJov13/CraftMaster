@@ -1,0 +1,39 @@
+
+g	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(½Ö××ıÿÿÿÿ8æè™óÕ1
+g	java:S1127"FDefine and throw a dedicated exception instead of using a generic one.(·‹Ú¨ùÿÿÿÿ8æè™óÕ1
+b	java:S112~"FDefine and throw a dedicated exception instead of using a generic one.(±”å“8æè™óÕ1
+h	java:S112ƒ"FDefine and throw a dedicated exception instead of using a generic one.(ê‡Ğòüÿÿÿÿ8æè™óÕ1
+L
+java:S3740„"/Provide the parametrized type for this generic.(¨»Èa8æè™óÕ1
+L
+java:S3740„"/Provide the parametrized type for this generic.(¨»Èa8æè™óÕ1
+k
+java:S2095I"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(éà¾î8äï™óÕ1
+g
+java:S2095"EUse try-with-resources or close this "ZipFile" in a "finally" clause.(Ãª¨Üùÿÿÿÿ8äï™óÕ1
+j
+java:S2095e"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(†š­î8äï™óÕ1
+n
+java:S2095"LUse try-with-resources or close this "ZipInputStream" in a "finally" clause.(ú¾›‰ùÿÿÿÿ8äï™óÕ1
+k
+java:S2095$"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(éà¾î8äï™óÕ1
+n
+java:S20958"LUse try-with-resources or close this "ZipInputStream" in a "finally" clause.(ú¾›‰ùÿÿÿÿ8äï™óÕ1
+o
+java:S2095…"LUse try-with-resources or close this "ZipInputStream" in a "finally" clause.(ú¾›‰ùÿÿÿÿ8äï™óÕ1
+W
+java:S1118":Add a private constructor to hide the implicit public one.(ŞìŸê8éï™óÕ1
+o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½Ö××ıÿÿÿÿ8ìï™óÕ1
+t
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(½Ö××ıÿÿÿÿ8îï™óÕ1
+c	java:S899""BDo something with the "boolean" value returned by "createNewFile".(Ğ’Íùÿÿÿÿ8ÿï™óÕ1
+o	java:S1007"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·‹Ú¨ùÿÿÿÿ8€ğ™óÕ1
+c	java:S899G"BDo something with the "boolean" value returned by "createNewFile".(Ğ’Íùÿÿÿÿ8ğ™óÕ1
+o	java:S100X"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğ´Öıÿÿÿÿ8ğ™óÕ1
+o	java:S100`"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ğùıêûÿÿÿÿ8ğ™óÕ1
+t
+java:S3776`"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(Ğùıêûÿÿÿÿ8‘ğ™óÕ1
+j	java:S100~"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±”å“8—ğ™óÕ1
+p	java:S100ƒ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ê‡Ğòüÿÿÿÿ8˜ğ™óÕ1
+u
+java:S3776ƒ"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(ê‡Ğòüÿÿÿÿ8˜ğ™óÕ1

@@ -78,6 +78,16 @@
         app:layout_constraintStart_toEndOf="@+id/settings"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <ImageView
+        android:id="@+id/policy"
+        android:layout_width="55dp"
+        android:layout_height="40dp"
+        android:background="@drawable/btn_policy"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/settings"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
     <ImageView
         android:id="@+id/settings"
@@ -86,6 +96,7 @@
         android:background="@drawable/settings"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.18" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

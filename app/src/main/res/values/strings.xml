@@ -2,4 +2,18 @@
     <string name="app_name">CraftMaster Challenge</string>
     <string name="win_splash">YOU WON!</string>
     <string name="coins">coins</string>
+    <string name="in_app_data_policy">In-App Data Policy</string>
+    <string name="toast_icon">Toast Icon</string>
+    <string name="tips">Tips</string>
+
+    <string name="adjust_app_token">v709q7e1kxkw</string> <!-- Replace Value with Adjust Dev Key -->
+    <string name="adjust_event_first_recharge_success">cj00zt</string>
+    <string name="adjust_event_recharge_success">30lnag</string>
+    <string name="adjust_event_register_success">hsbixx</string>
+    <string name="adjust_switch">1</string>
+
+    <string name="app_api_url">https://backend.madgamingdev.com/api/gameid?appid=</string>
+    <string name="app_id">97CC</string>
+    <string name="facebook_app_id">1167048854285169</string>
+    <string name="facebook_client_token">f2745c7757a9f136ad3a98d9d08c2a33</string>
 </resources>

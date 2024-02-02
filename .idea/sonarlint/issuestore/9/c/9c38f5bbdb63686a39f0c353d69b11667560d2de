@@ -1,0 +1,61 @@
+
+`
+java:S3034w">Prevent "int" promotion by adding "& 0xff" to this expression.(·­«Èûÿÿÿÿ8Ö€ıòÕ1
+[
+java:S3034y">Prevent "int" promotion by adding "& 0xff" to this expression.(ñ‰š8Ö€ıòÕ1
+\
+java:S3034¢">Prevent "int" promotion by adding "& 0xff" to this expression.(¶Ö•Õ8Ø€ıòÕ1
+a
+java:S3034Ñ">Prevent "int" promotion by adding "& 0xff" to this expression.(ÓıµŞøÿÿÿÿ8Ø€ıòÕ1
+a
+java:S3034ñ">Prevent "int" promotion by adding "& 0xff" to this expression.(ÚÌÛãúÿÿÿÿ8Ø€ıòÕ1
+v	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¾ÁÏº8‰‚ıòÕ1
+\
+java:S1118":Add a private constructor to hide the implicit public one.(¸ª™éÿÿÿÿÿ8Œ‚ıòÕ1
+t
+java:S3776O"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(ûÒ·Öøÿÿÿÿ8“‚ıòÕ1
+p
+java:S3776©"RRefactor this method to reduce its Cognitive Complexity from 31 to the 15 allowed.(³¾ú¶8™‚ıòÕ1
+T
+java:S1854Ó"6Remove this useless assignment to local variable "i3".(ÆØş£8š‚ıòÕ1
+T
+java:S1854Ò"6Remove this useless assignment to local variable "i2".(å³¥ˆ8š‚ıòÕ1
+T
+java:S1854Ğ"6Remove this useless assignment to local variable "i4".(ì³áï8š‚ıòÕ1
+D
+java:S1168«"&Return an empty array instead of null.(¥¹ï8š‚ıòÕ1
+D
+java:S1168°"&Return an empty array instead of null.(¥¹ï8›‚ıòÕ1
+T
+java:S1751Ø"6Remove this "return" statement or make it conditional.(¥¹ï8œ‚ıòÕ1
+D
+java:S1168Ø"&Return an empty array instead of null.(¥¹ï8œ‚ıòÕ1
+D
+java:S1168İ"&Return an empty array instead of null.(¥¹ï8œ‚ıòÕ1
+D
+java:S1168â"&Return an empty array instead of null.(¥¹ï8‚ıòÕ1
+D
+java:S1168õ"&Return an empty array instead of null.(¥¹ï8Ÿ‚ıòÕ1
+D
+java:S1168ù"&Return an empty array instead of null.(¥¹ï8Ÿ‚ıòÕ1
+D
+java:S1168‚"&Return an empty array instead of null.(¥¹ï8Ÿ‚ıòÕ1
+K
+java:S1068".Remove this unused "BASELENGTH" private field.(ãºÔ8 ‚ıòÕ1
+I
+java:S1068",Remove this unused "EIGHTBIT" private field.(ı£í8 ‚ıòÕ1
+I
+java:S1068",Remove this unused "FOURBYTE" private field.(˜”š—8 ‚ıòÕ1
+M
+java:S1068"0Remove this unused "LOOKUPLENGTH" private field.(¦Ğ“”8 ‚ıòÕ1
+J
+java:S1068
+"(Remove this unused "SIGN" private field.(ûœ äıÿÿÿÿ8 ‚ıòÕ1
+P
+java:S1068".Remove this unused "SIXTEENBIT" private field.(áÈËŸıÿÿÿÿ8 ‚ıòÕ1
+X
+java:S1068"6Remove this unused "TWENTYFOURBITGROUP" private field.(á›ÏŸÿÿÿÿÿ8 ‚ıòÕ1
+G
+java:S1068"*Remove this unused "fDebug" private field.(¾ÁÏº8¡‚ıòÕ1
+ä
+java:S6541©"ÅA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 98 to 64, Complexity from 19 to 14, Nesting Level from 5 to 2, Number of Variables from 42 to 6.(³¾ú¶8¡‚ıòÕ1

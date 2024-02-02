@@ -5,7 +5,7 @@ import android.content.Context;
 
 public class RulesMechanics {
 
-    MainActivity main ;
+
 
     private int myCoins;
     private int lines = 1;
@@ -107,14 +107,14 @@ public class RulesMechanics {
     public void betUp() {
         if (bet < 100) {
             bet += 5;
-            //myCoins -= 5;
+
         }
     }
 
     public void betDown() {
         if (bet > 5) {
             bet -= 5;
-            //myCoins += 5;
+
         }
     }
 
