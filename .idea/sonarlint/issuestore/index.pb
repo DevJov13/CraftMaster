@@ -25,8 +25,6 @@ A
 Q.idea/sonarlint/securityhotspotstore/8/c/8c55c3ccc257e5907959013f99656e4c8ec3903e,1\f\1fe398aa86b382486ed27d0a69bf92f68bd5edaa
 ?
 settings.gradle,0\5\05efc8b1657769a27696d478ded1e95f38737233
-Å
-Q.idea/sonarlint/securityhotspotstore/9/9/99acaab0059a068511972bdb65a72ce7d0ae7c92,c\6\c612dc9d64d0b6ed4fe85e12a215be7746725686
 v
 Fapp/src/androidTest/java/dev/joven/mygame/ExampleInstrumentedTest.java,f\4\f42619739286fcdea4fce2f51ddd85c424887519
 Å
@@ -44,8 +42,6 @@ S
 w
 G.idea/sonarlint/issuestore/4/a/4a5ec56fa59d2706c66ce76f16b983319dec5f53,3\2\321e986630942c19177f70a4499e4e0d5b95696a
 w
-G.idea/sonarlint/issuestore/7/7/770fa5e0f5b6c87543e251d72c48c338b1d55c66,e\2\e23dbbd6ca01e10d3ed8e3d6159f3547b539dad7
-w
 G.idea/sonarlint/issuestore/8/c/8c55c3ccc257e5907959013f99656e4c8ec3903e,3\2\32813322c99a6c8a141ab2dc12bc10af3425f1b4
 w
 G.idea/sonarlint/issuestore/9/e/9e08934d811afe28fbc77aaa3c0d747b94348db9,0\1\0105d5a774c76db833eb83cbebde54a8abef1599
@@ -59,16 +55,12 @@ G.idea/sonarlint/issuestore/f/0/f07866736216be0ee2aba49e392191aeae700a35,b\f\bf
 app/.gitignore,5\1\51e1c5d383dfaa35e0e7e5873a0a99355a86880f
 Å
 Q.idea/sonarlint/securityhotspotstore/4/a/4a5ec56fa59d2706c66ce76f16b983319dec5f53,1\d\1d6262e3bae69c67c30d174d14803041040a7728
-Å
-Q.idea/sonarlint/securityhotspotstore/4/1/4139cea3ec9f1b0b45766737b946184457f7214f,7\6\76af761ba83037e459c5396eee75c85973dc250f
 P
  app/release/output-metadata.json,0\7\079ee2b81fdfd2faf349bcf552fe1a1bc16be431
 Å
 Q.idea/sonarlint/securityhotspotstore/5/f/5fc0f9ce476dbbb09df949f075e4e3ca5a86f084,c\1\c13ae312acda3bf0462f7eba2937d5ad0a050385
 ;
 gradlew.bat,2\a\2a45a911a8f1836b0b6c5b758962572012d8f8c3
-Å
-Q.idea/sonarlint/securityhotspotstore/7/7/770fa5e0f5b6c87543e251d72c48c338b1d55c66,d\2\d2c54169626f58f37f27ec27532c92c21720733b
 7
 gradlew,5\b\5bbfa66edb4db3c7c33c5181f43510990d3307f9
 :

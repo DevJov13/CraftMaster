@@ -3,7 +3,7 @@ import com.facebook.appevents.AppEventsConstants;
 
 public class AppInfoModel {
     private String app_version;
-    private String bw_domain = "https://97.game/";
+
     private String channel_id = AppEventsConstants.EVENT_PARAM_VALUE_YES;
     private String device_id;
     private String identity;
@@ -67,11 +67,7 @@ public class AppInfoModel {
         this.style = str;
     }
 
-    public String getBw_domain() {
-        return this.bw_domain;
-    }
 
-    public void setBw_domain(String str) {
-        this.bw_domain = str;
-    }
+
+
 }

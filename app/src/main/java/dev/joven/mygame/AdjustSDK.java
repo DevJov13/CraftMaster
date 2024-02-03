@@ -304,10 +304,8 @@ public class AdjustSDK extends BaseActivity implements View.OnClickListener {
                 return true;
             }
 
-            @Override
-            public void onReceivedSslError(WebView webView, SslErrorHandler sslErrorHandler, SslError sslError) {
-                sslErrorHandler.proceed();
-            }
+
+
         });
         webView.loadData(str, "text/html", "utf-8");
     }

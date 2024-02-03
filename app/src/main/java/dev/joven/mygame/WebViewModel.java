@@ -281,9 +281,7 @@ public class WebViewModel {
                 return WebViewModel.this.checkJump(webResourceRequest);
             }
 
-            public void onReceivedSslError(WebView webView, SslErrorHandler sslErrorHandler, SslError sslError) {
-                sslErrorHandler.proceed();
-            }
+
 
             @Override
             public void onReceivedError(WebView webView, int i, String str, String str2) {

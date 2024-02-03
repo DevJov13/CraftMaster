@@ -1,17 +1,14 @@
 
-w	java:S116"VRename this field "app_version" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§™âºûÿÿÿÿ8ÍëùòÕ1
-u	java:S116"TRename this field "bw_domain" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ä•Áùÿÿÿÿ8ÎëùòÕ1
-q	java:S116"URename this field "channel_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—“ÿ8ÎëùòÕ1
-p	java:S116"TRename this field "device_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Æô×í8ÎëùòÕ1
+w	java:S116"VRename this field "app_version" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§™âºûÿÿÿÿ8ø¥”èÖ1
+q	java:S116"URename this field "channel_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—“ÿ8ù¥”èÖ1
+p	java:S116"TRename this field "device_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Æô×í8ù¥”èÖ1
 u	java:S116
-"TRename this field "parent_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦üìäùÿÿÿÿ8ÎëùòÕ1
-j	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ç´×Â8×ëùòÕ1
-o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÉŒé¸üÿÿÿÿ8×ëùòÕ1
-o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(íÉÆÇşÿÿÿÿ8×ëùòÕ1
-o	java:S100""NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»Ãµ‰ûÿÿÿÿ8×ëùòÕ1
-o	java:S100&"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö€Ë’ıÿÿÿÿ8ØëùòÕ1
-j	java:S100*"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Î­È‘8ØëùòÕ1
-i	java:S100."NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğûàn8ØëùòÕ1
-o	java:S1002"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’Ôòıÿÿÿÿ8ØëùòÕ1
-o	java:S100F"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ò½äîüÿÿÿÿ8ÚëùòÕ1
-j	java:S100J"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğÀÍú8ÚëùòÕ1
+"TRename this field "parent_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦üìäùÿÿÿÿ8ù¥”èÖ1
+j	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ç´×Â8‚¦”èÖ1
+o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÉŒé¸üÿÿÿÿ8ƒ¦”èÖ1
+o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(íÉÆÇşÿÿÿÿ8ƒ¦”èÖ1
+o	java:S100""NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»Ãµ‰ûÿÿÿÿ8„¦”èÖ1
+o	java:S100&"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö€Ë’ıÿÿÿÿ8„¦”èÖ1
+j	java:S100*"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Î­È‘8…¦”èÖ1
+i	java:S100."NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğûàn8†¦”èÖ1
+o	java:S1002"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’Ôòıÿÿÿÿ8†¦”èÖ1

@@ -11,10 +11,10 @@ n
 java:S1192ª"KDefine a constant instead of duplicating this literal "yyyy-MM-dd" 6 times.(¸±ê«øÿÿÿÿ8èı‰óÕ1
 i
 java:S2259å"KA "NullPointerException" could be thrown; "roundDouble2()" can return null.(¯šØ“8îş‰óÕ1
-q
-java:S2095ì"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(éÈâ‹ÿÿÿÿÿ8îş‰óÕ1
 p
 java:S2095ë"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(–‚šÂşÿÿÿÿ8îş‰óÕ1
+q
+java:S2095ì"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(éÈâ‹ÿÿÿÿÿ8îş‰óÕ1
 ‚
 java:S1149ˆ"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(ì­ŠÜúÿÿÿÿ8õş‰óÕ1
 W

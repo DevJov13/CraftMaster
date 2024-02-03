@@ -1,10 +1,10 @@
 
-n	java:S117¡"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ğ¤÷8í˜óÕ1
-n	java:S117¨"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨ƒ›‡8í˜óÕ1
+n	java:S117Ÿ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ğ¤÷8í˜óÕ1
+n	java:S117¦"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨ƒ›‡8í˜óÕ1
 K
-java:S1604¢"(Make this anonymous inner class a lambda(œ¯ıÓùÿÿÿÿ8í˜óÕ1
+java:S1604 "(Make this anonymous inner class a lambda(œ¯ıÓùÿÿÿÿ8í˜óÕ1
 F
-java:S1604ä"(Make this anonymous inner class a lambda(„ÑñŒ8í˜óÕ1
+java:S1604â"(Make this anonymous inner class a lambda(„ÑñŒ8í˜óÕ1
 p
 java:S1104/"SMake builder a static final constant or non-public and provide accessors if needed.(»æ…8î˜óÕ1
 q
@@ -77,70 +77,68 @@ K
 java:S1185"(Remove this method to simply inherit it.(Ûû†ûúÿÿÿÿ8ê‘˜óÕ1
 ^
 java:S1874‘"@Remove this use of "shouldOverrideUrlLoading"; it is deprecated.(›Üı­8ê‘˜óÕ1
-]
-java:S1161œ":Add the "@Override" annotation above this method signature(¼Åˆáşÿÿÿÿ8ì‘˜óÕ1
 m
-java:S1874¡"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(Í´¥€øÿÿÿÿ8í‘˜óÕ1
+java:S1874Ÿ"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(Í´¥€øÿÿÿÿ8í‘˜óÕ1
 Z
-java:S1874¢"7Remove this use of "onReceivedError"; it is deprecated.(ÁÉ±øÿÿÿÿ8î‘˜óÕ1
+java:S1874 "7Remove this use of "onReceivedError"; it is deprecated.(ÁÉ±øÿÿÿÿ8î‘˜óÕ1
 p
-java:S1871­"MThis branch's code block is the same as the block for the branch on line 299.(çÁ›áùÿÿÿÿ8î‘˜óÕ1
-F	java:S108Â")Either remove or fill this block of code.(Îø“Á8ô‘˜óÕ1
+java:S1871«"MThis branch's code block is the same as the block for the branch on line 297.(çÁ›áùÿÿÿÿ8î‘˜óÕ1
+F	java:S108À")Either remove or fill this block of code.(Îø“Á8ô‘˜óÕ1
 p
-java:S1871Æ"MThis branch's code block is the same as the block for the branch on line 324.(Õ½­Îùÿÿÿÿ8õ‘˜óÕ1
+java:S1871Ä"MThis branch's code block is the same as the block for the branch on line 322.(Õ½­Îùÿÿÿÿ8õ‘˜óÕ1
 K
-java:S1185Ï"(Remove this method to simply inherit it.(²’şÓÿÿÿÿÿ8ö‘˜óÕ1
+java:S1185Í"(Remove this method to simply inherit it.(²’şÓÿÿÿÿÿ8ö‘˜óÕ1
 X
-java:S1854×":Remove this useless assignment to local variable "unused".(ñ“èÓ8ú‘˜óÕ1
+java:S1854Õ":Remove this useless assignment to local variable "unused".(ñ“èÓ8ú‘˜óÕ1
 I
-java:S1481×"+Remove this unused "unused" local variable.(ñ“èÓ8û‘˜óÕ1
+java:S1481Õ"+Remove this unused "unused" local variable.(ñ“èÓ8û‘˜óÕ1
 R
-java:S1874Ú"/Remove this use of "Handler"; it is deprecated.(’àŞ–úÿÿÿÿ8û‘˜óÕ1
+java:S1874Ø"/Remove this use of "Handler"; it is deprecated.(’àŞ–úÿÿÿÿ8û‘˜óÕ1
 _
-java:S1126ö"AReplace this if-then-else statement by a single return statement.(€€ ë8ş‘˜óÕ1
+java:S1126ô"AReplace this if-then-else statement by a single return statement.(€€ ë8ş‘˜óÕ1
 ¤
-java:S1186£"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÜÒÌˆıÿÿÿÿ8†’˜óÕ1
+java:S1186¡"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÜÒÌˆıÿÿÿÿ8†’˜óÕ1
 Q
-java:S1172®".Remove this unused method parameter "context".(ğÏñ×ûÿÿÿÿ8‰’˜óÕ1
+java:S1172¬".Remove this unused method parameter "context".(ğÏñ×ûÿÿÿÿ8‰’˜óÕ1
 ^
-java:S1874µ";Remove this use of "removeSessionCookie"; it is deprecated.(åíòÃûÿÿÿÿ8Š’˜óÕ1
+java:S1874³";Remove this use of "removeSessionCookie"; it is deprecated.(åíòÃûÿÿÿÿ8Š’˜óÕ1
 U
-java:S1874¶"7Remove this use of "removeAllCookie"; it is deprecated.(ûÚã˜8Š’˜óÕ1
+java:S1874´"7Remove this use of "removeAllCookie"; it is deprecated.(ûÚã˜8Š’˜óÕ1
 \
-java:S1874Á"9Remove this use of "CookieSyncManager"; it is deprecated.(ñØğşÿÿÿÿ8š’˜óÕ1
+java:S1874¿"9Remove this use of "CookieSyncManager"; it is deprecated.(ñØğşÿÿÿÿ8š’˜óÕ1
 Y
-java:S1874Á"6Remove this use of "createInstance"; it is deprecated.(ñØğşÿÿÿÿ8š’˜óÕ1
+java:S1874¿"6Remove this use of "createInstance"; it is deprecated.(ñØğşÿÿÿÿ8š’˜óÕ1
 V
-java:S1874Â"9Remove this use of "CookieSyncManager"; it is deprecated.(†¿ÿ8š’˜óÕ1
+java:S1874À"9Remove this use of "CookieSyncManager"; it is deprecated.(†¿ÿ8š’˜óÕ1
 P
-java:S1874Â"3Remove this use of "getInstance"; it is deprecated.(†¿ÿ8š’˜óÕ1
+java:S1874À"3Remove this use of "getInstance"; it is deprecated.(†¿ÿ8š’˜óÕ1
 I
-java:S1874Â",Remove this use of "sync"; it is deprecated.(†¿ÿ8š’˜óÕ1
+java:S1874À",Remove this use of "sync"; it is deprecated.(†¿ÿ8š’˜óÕ1
 ^
-java:S1874Ç";Remove this use of "removeSessionCookie"; it is deprecated.(åíòÃûÿÿÿÿ8›’˜óÕ1
+java:S1874Å";Remove this use of "removeSessionCookie"; it is deprecated.(åíòÃûÿÿÿÿ8›’˜óÕ1
 U
-java:S1874È"7Remove this use of "removeAllCookie"; it is deprecated.(ûÚã˜8›’˜óÕ1
+java:S1874Æ"7Remove this use of "removeAllCookie"; it is deprecated.(ûÚã˜8›’˜óÕ1
 \
-java:S1874Í"9Remove this use of "CookieSyncManager"; it is deprecated.(ñØğşÿÿÿÿ8ª’˜óÕ1
+java:S1874Ë"9Remove this use of "CookieSyncManager"; it is deprecated.(ñØğşÿÿÿÿ8ª’˜óÕ1
 Y
-java:S1874Í"6Remove this use of "createInstance"; it is deprecated.(ñØğşÿÿÿÿ8¹’˜óÕ1
+java:S1874Ë"6Remove this use of "createInstance"; it is deprecated.(ñØğşÿÿÿÿ8¹’˜óÕ1
 V
-java:S1874Î"9Remove this use of "CookieSyncManager"; it is deprecated.(†¿ÿ8É’˜óÕ1
+java:S1874Ì"9Remove this use of "CookieSyncManager"; it is deprecated.(†¿ÿ8É’˜óÕ1
 P
-java:S1874Î"3Remove this use of "getInstance"; it is deprecated.(†¿ÿ8É’˜óÕ1
+java:S1874Ì"3Remove this use of "getInstance"; it is deprecated.(†¿ÿ8É’˜óÕ1
 I
-java:S1874Î",Remove this use of "sync"; it is deprecated.(†¿ÿ8É’˜óÕ1
+java:S1874Ì",Remove this use of "sync"; it is deprecated.(†¿ÿ8É’˜óÕ1
 M
-java:S1874ä"/Remove this use of "Handler"; it is deprecated.(„ÑñŒ8Ì’˜óÕ1
+java:S1874â"/Remove this use of "Handler"; it is deprecated.(„ÑñŒ8Ì’˜óÕ1
 ]
-java:S1854è":Remove this useless assignment to local variable "unused".(»­ ùÿÿÿÿ8Í’˜óÕ1
+java:S1854æ":Remove this useless assignment to local variable "unused".(»­ ùÿÿÿÿ8Í’˜óÕ1
 N
-java:S1481è"+Remove this unused "unused" local variable.(»­ ùÿÿÿÿ8Í’˜óÕ1
+java:S1481æ"+Remove this unused "unused" local variable.(»­ ùÿÿÿÿ8Í’˜óÕ1
 u
-java:S1450ı"WRemove the "mWebview" field and declare it as a local variable in the relevant methods.(ÂÁ‡ë8Ù’˜óÕ1
+java:S1450û"WRemove the "mWebview" field and declare it as a local variable in the relevant methods.(ÂÁ‡ë8Ù’˜óÕ1
 [
-java:S1874—"8Remove this use of "VIBRATOR_SERVICE"; it is deprecated.(¸€§›ÿÿÿÿÿ8Ü’˜óÕ1
+java:S1874•"8Remove this use of "VIBRATOR_SERVICE"; it is deprecated.(¸€§›ÿÿÿÿÿ8Ü’˜óÕ1
 R
-java:S1874—"/Remove this use of "vibrate"; it is deprecated.(¸€§›ÿÿÿÿÿ8Ü’˜óÕ1
+java:S1874•"/Remove this use of "vibrate"; it is deprecated.(¸€§›ÿÿÿÿÿ8Ü’˜óÕ1
 J
-java:S1068ı",Remove this unused "mWebview" private field.(ÂÁ‡ë8é’˜óÕ1
+java:S1068û",Remove this unused "mWebview" private field.(ÂÁ‡ë8é’˜óÕ1

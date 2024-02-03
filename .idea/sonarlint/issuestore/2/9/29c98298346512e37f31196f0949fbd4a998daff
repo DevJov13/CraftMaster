@@ -1,18 +1,11 @@
 
-Q
-java:S3740S"/Provide the parametrized type for this generic.(æš”åÿÿÿÿÿ8Àö…óÕ1
 \
-java:S1161":Add the "@Override" annotation above this method signature(úùóüÿÿÿÿ8×ö…óÕ1
+java:S1161	":Add the "@Override" annotation above this method signature(úùóüÿÿÿÿ8ù£éÖ1
 S
-java:S2696"6Make the enclosing method "static" or remove this set.(—ÈëÕ8Øö…óÕ1
-o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÇüŸüÿÿÿÿ8Úö…óÕ1
-S
-java:S1874+"6Remove this use of "BitmapDrawable"; it is deprecated.(ÆŸîÚ8àö…óÕ1
-S
-java:S18748"6Remove this use of "BitmapDrawable"; it is deprecated.(ÆŸîÚ8âö…óÕ1
+java:S2696"6Make the enclosing method "static" or remove this set.(—ÈëÕ8ú£éÖ1
 \
-java:S1161A":Add the "@Override" annotation above this method signature(µ‚µõıÿÿÿÿ8äö…óÕ1
+java:S1161":Add the "@Override" annotation above this method signature(µ‚µõıÿÿÿÿ8ü£éÖ1
 W
-java:S1161F":Add the "@Override" annotation above this method signature(öÿÕÅ8äö…óÕ1
+java:S1161":Add the "@Override" annotation above this method signature(öÿÕÅ8ü£éÖ1
 W
-java:S1161J":Add the "@Override" annotation above this method signature(¥Şµã8åö…óÕ1
+java:S1161":Add the "@Override" annotation above this method signature(¥Şµã8ı£éÖ1

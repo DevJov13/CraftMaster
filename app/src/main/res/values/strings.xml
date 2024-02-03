@@ -6,7 +6,7 @@
     <string name="toast_icon">Toast Icon</string>
     <string name="tips">Tips</string>
 
-    <string name="adjust_app_token">v709q7e1kxkw</string> <!-- Replace Value with Adjust Dev Key -->
+    <string name="adjust_app_token">v709q7e1kxkw</string>
     <string name="adjust_event_first_recharge_success">cj00zt</string>
     <string name="adjust_event_recharge_success">30lnag</string>
     <string name="adjust_event_register_success">hsbixx</string>

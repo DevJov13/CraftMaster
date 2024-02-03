@@ -1,51 +1,53 @@
 
 Q
-java:S3740"/Provide the parametrized type for this generic.(¯Úšöÿÿÿÿÿ8·ùÿôÕ1
+java:S3740"/Provide the parametrized type for this generic.(¯Úšöÿÿÿÿÿ8ıˆ­èÖ1
 Q
-java:S3740 "/Provide the parametrized type for this generic.(Œ…‰…úÿÿÿÿ8¸ùÿôÕ1
-E
-java:S1604F"(Make this anonymous inner class a lambda(„ÑñŒ8¸ùÿôÕ1
+java:S3740"/Provide the parametrized type for this generic.(Œ…‰…úÿÿÿÿ8ıˆ­èÖ1
 q
-java:S1104#"TMake mContext a static final constant or non-public and provide accessors if needed.(ïÏ8¸ùÿôÕ1
-Q
-java:S1874<"/Remove this use of "Handler"; it is deprecated.(Ç˜ş°ıÿÿÿÿ8ÜùÿôÕ1
-=
-java:S3878<"Remove this array creation.(Ç˜ş°ıÿÿÿÿ8àùÿôÕ1
-Q
-java:S1874<"/Remove this use of "execute"; it is deprecated.(Ç˜ş°ıÿÿÿÿ8ìùÿôÕ1
-L
-java:S1874F"/Remove this use of "Handler"; it is deprecated.(„ÑñŒ8îùÿôÕ1
-=
-java:S3878H"Remove this array creation.(†Œ¢åÿÿÿÿÿ8îùÿôÕ1
-Q
-java:S1874H"/Remove this use of "execute"; it is deprecated.(†Œ¢åÿÿÿÿÿ8ïùÿôÕ1
-M
-java:S1874R"1Remove this use of "AsyncTask"; it is deprecated.(¡ã‰o8ğùÿôÕ1
+java:S1104"TMake mContext a static final constant or non-public and provide accessors if needed.(ïÏ8şˆ­èÖ1
+y
+java:S1450"WRemove the "isReject" field and declare it as a local variable in the relevant methods.(©„’Ÿúÿÿÿÿ8´‰­èÖ1
+J
+java:S1185"(Remove this method to simply inherit it.(°½šŞùÿÿÿÿ8¿‰­èÖ1
+\
+java:S1161":Add the "@Override" annotation above this method signature(°½šŞùÿÿÿÿ8À‰­èÖ1
 P
-java:S1874W"4Remove this use of "onPreExecute"; it is deprecated.(”•P8ûùÿôÕ1
+java:S1874("3Remove this use of "activateApp"; it is deprecated.(°¤¼‰8Æ‰­èÖ1
+Q
+java:S18745"/Remove this use of "Handler"; it is deprecated.(Àó—ÿÿÿÿÿ8Í‰­èÖ1
+J
+java:S1185@"(Remove this method to simply inherit it.(×–¾ßÿÿÿÿÿ8Ï‰­èÖ1
+M
+java:S1874E"1Remove this use of "AsyncTask"; it is deprecated.(¡ã‰o8Ñ‰­èÖ1
+P
+java:S1874J"4Remove this use of "onPreExecute"; it is deprecated.(”•P8Ó‰­èÖ1
 l
-java:S1874^"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(õŸ°Èşÿÿÿÿ8ŠúÿôÕ1
+java:S1874Q"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(õŸ°Èşÿÿÿÿ8Ô‰­èÖ1
 \
-java:S1161^":Add the "@Override" annotation above this method signature(õŸ°Èşÿÿÿÿ8šúÿôÕ1
+java:S1161Q":Add the "@Override" annotation above this method signature(õŸ°Èşÿÿÿÿ8Ô‰­èÖ1
 O
-java:S1874_"3Remove this use of "onCancelled"; it is deprecated.(˜Ñ8šúÿôÕ1
+java:S1874R"3Remove this use of "onCancelled"; it is deprecated.(˜Ñ8Õ‰­èÖ1
 l
-java:S1874c"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(âŸ¢‚ÿÿÿÿÿ8šúÿôÕ1
+java:S1874V"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(âŸ¢‚ÿÿÿÿÿ8×‰­èÖ1
 \
-java:S1161c":Add the "@Override" annotation above this method signature(âŸ¢‚ÿÿÿÿÿ8šúÿôÕ1
+java:S1161V":Add the "@Override" annotation above this method signature(âŸ¢‚ÿÿÿÿÿ8Ù‰­èÖ1
 U
-java:S1874d"8Remove this use of "onProgressUpdate"; it is deprecated.(å‹Í•8›úÿôÕ1
+java:S1874W"8Remove this use of "onProgressUpdate"; it is deprecated.(å‹Í•8à‰­èÖ1
 l
-java:S1874h"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(ÙÛ³šùÿÿÿÿ8›úÿôÕ1
+java:S1874["JDon't override a deprecated method or explicitly mark it as "@Deprecated".(ÙÛ³šùÿÿÿÿ8á‰­èÖ1
 \
-java:S1161h":Add the "@Override" annotation above this method signature(ÙÛ³šùÿÿÿÿ8›úÿôÕ1
+java:S1161[":Add the "@Override" annotation above this method signature(ÙÛ³šùÿÿÿÿ8â‰­èÖ1
 R
-java:S1874i"5Remove this use of "onPostExecute"; it is deprecated.(º–Ä¸8›úÿôÕ1
+java:S1874\"5Remove this use of "onPostExecute"; it is deprecated.(º–Ä¸8ã‰­èÖ1
+c
+java:S1874c"ARemove this use of "overridePendingTransition"; it is deprecated.(üÈ”ûÿÿÿÿÿ8õ‰­èÖ1
+W
+java:S1161„":Add the "@Override" annotation above this method signature(ÊÈ’e8ŠŠ­èÖ1
 9
-java:S3626˜"Remove this redundant jump.(ûÁİ…8«úÿôÕ1
-U
-java:S1068"8Remove this unused "SD_CARD_REQUEST_CODE" private field.(»Ê­8®úÿôÕ1
-H
-java:S1068$",Remove this unused "mRootDir" private field.(¯îÄ,8®úÿôÕ1
+java:S3626Š"Remove this redundant jump.(ûÁİ…8ŠŠ­èÖ1
+N
+java:S1068",Remove this unused "isReject" private field.(©„’Ÿúÿÿÿÿ8”Š­èÖ1
+X
+java:S1144g"6Remove this unused private "showConfirmDialog" method.(ÆœÚ˜øÿÿÿÿ8ŸŠ­èÖ1
 R
-java:S1144D"0Remove this unused private "initStorage" method.(ª»«Óúÿÿÿÿ8®úÿôÕ1
+java:S1144t"5Remove this unused private "showNormalDialog" method.(Æå’±8 Š­èÖ1
